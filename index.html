@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BINGO Game </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- select box -->
+  <div class="container-fluid">
+    <div class="select-box">
+      <h1>BINGO!!</h1>
+      <div class="content">
+        <div class="title">Start The game</div>
+        <div class="options">
+          <button class="play" id="btn">Let's Begin</button>
+          <!--<button class="playerO">Player (O)</button-->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- playboard section -->
+
+
+    <div class="play-board container-fluid">
+      <div class="details">
+        <div class="players">
+          <span class="player1turn">Player1 Turn</span>
+          <span class="player2turn">Player2 Turn</span>
+          <div class="slider"></div>
+        </div>
+
+        <div class="choice">
+
+          <button id="dice" class="choice">X</button>
+        </div>
+      </div>
+      <div class="play-area">
+        <div class="row">
+
+          <div class="col-md-6">
+            <h2>Player1</h2>
+            <!-- player1 area-->
+
+            <div class="play-area1">
+
+              <section>
+                <span id="box100" class=" first">*</span>
+                <span id="box101" class=" first">*</span>
+                <span id="box102" class=" first">*</span>
+                <span id="box103" class=" first">*</span>
+                <span id="box104" class=" first">*</span>
+              </section>
+              <section>
+                <span id="box110" class=" first">*</span>
+                <span id="box111" class=" first">*</span>
+                <span id="box112" class=" first">*</span>
+                <span id="box113" class=" first">*</span>
+                <span id="box114" class=" first">*</span>
+              </section>
+              <section>
+                <span id="box120" class=" first">*</span>
+                <span id="box121" class=" first">*</span>
+                <span id="box122" class=" first">*</span>
+                <span id="box123" class=" first">*</span>
+                <span id="box124" class=" first">*</span>
+
+              </section>
+
+              <section>
+                <span id="box130" class=" first">*</span>
+                <span id="box131" class=" first">*</span>
+                <span id="box132" class=" first">*</span>
+                <span id="box133" class=" first">*</span>
+                <span id="box134" class=" first">*</span>
+
+              </section>
+              <section>
+                <span id="box140" class=" first">*</span>
+                <span id="box141" class=" first">*</span>
+                <span id="box142" class=" first">*</span>
+                <span id="box143" class=" first">*</span>
+                <span id="box144" class=" first">*</span>
+
+              </section>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <h2>Player2</h2>
+            <!-- player12area-->
+            <div class="play-area2">
+              <section>
+                <span id="box200" class=" second">*</span>
+                <span id="box201" class=" second">*</span>
+                <span id="box202" class=" second">*</span>
+                <span id="box203" class=" second">*</span>
+                <span id="box204" class=" second">*</span>
+              </section>
+              <section>
+                <span id="box210" class=" second">*</span>
+                <span id="box211" class=" second">*</span>
+                <span id="box212" class=" second">*</span>
+                <span id="box213" class=" second">*</span>
+                <span id="box214" class=" second">*</span>
+              </section>
+              <section>
+                <span id="box220" class=" second">*</span>
+                <span id="box221" class=" second">*</span>
+                <span id="box222" class=" second">*</span>
+                <span id="box223" class=" second">*</span>
+                <span id="box224" class=" second">*</span>
+
+              </section>
+
+              <section>
+                <span id="box230" class=" second">*</span>
+                <span id="box231" class=" second">*</span>
+                <span id="box232" class=" second">*</span>
+                <span id="box233" class=" second">*</span>
+                <span id="box234" class=" second">*</span>
+
+              </section>
+              <section>
+                <span id="box240" class=" second">*</span>
+                <span id="box241" class=" second">*</span>
+                <span id="box242" class=" second">*</span>
+                <span id="box243" class=" second">*</span>
+                <span id="box244" class=" second">*</span>
+
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--play area khatam-->
+
+      <!--playboard khatam-->
+
+  </div>
+      <!-- result box -->
+      <div class="result-box">
+        <h1>BINGO!!!!</h1>
+        <div class="won-text">winner</div>
+        <div class="replay "><button id=replaybtn >Replay</button></div>
+      </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
